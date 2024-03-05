@@ -1,0 +1,12 @@
+== 실습
+=== 개요
+DI를 적용한 프로그램이 어떤 것인지 확인합니다. 
+DI를 적용함으로써, 의존 객체의 구상 클래스를 효율적으로 전환할 수 있음을 확인합니다.
+
+
+=== 순서
+. TrainingApplication 클래스의 main 메서드를 실행해 봅시다. Repository의 구상 클래스는 어떤 것이 사용됐을까요?
+
+. TrainingServiceImplTest(src/test/java 아래)클래스의 테스트를 실행해 봅시다. TrainingServiceImpl 객체가 준비되어 있지 않아 NullPointerException이 발생합니다. 
+
+. TrainingServiceImplTest 클래스의 테스트 메서드 안에서 TrainingServiceImpl 객체를 생성합시다. TrainingServiceImpl 객체에 인젝션할 의존 객체의 구상 클래스는 MockTrainingRepository클래스를 사용하세요. TrainingServiceImpl 객체가 생성되면, 다시 TrainingServiceImplTest의 테스트를 실행합니다. 이제 테스트에 성공할 것입니다.
