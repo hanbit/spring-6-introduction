@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 17
+Implementation-Title: 0402-shopping-stereotype-annotation
+Implementation-Version: 1.0.0
+Created-By: Maven Integration for Eclipse
+

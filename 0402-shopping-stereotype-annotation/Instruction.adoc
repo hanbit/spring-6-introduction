@@ -1,0 +1,18 @@
+== 실습
+
+=== 개요
+기존 프로그램에 스테레오타입 애너테이션을 기술하여 Bean을 정의합니다. 이와 함께 인젝션하기 위한 애너테이션도 확인합니다.
+
+=== 절차
+. ShoppingApplication 클래스의 main 메서드를 실행해 봅시다. 'No qualifying bean of type 'com.example.shopping.service.OrderService' available'이라는 오류가 출력될 것입니다. 이는 main 메서드에서 getBean 메서드를 호출했을 때, 지정한 OrderService 형에 해당하는 Bean이 존재하지 않아 DI 컨테이너가 예외를 발생시켰기 때문입니다. 또한 현재는 OrderService 형의 Bean 외에 OrderRepository 형의 Bean, OrderItemRepository 형의 Bean, ProductRepository 형의 Bean도 존재하지 않는 상태입니다.
+
+. OrderService 형의 Bean, OrderRepository 형의 Bean, OrderItemRepository 형의 Bean, ProductRepository 형의 Bean을 DI 컨테이너에 등록하도록 수정하세요.
+... 힌트는 스테레오형 애너테이션과 컴포넌트 스캐닝입니다.
+
+. 다시 ShoppingApplication 클래스의 main 메소드를 실행하여 '주문 확정 처리가 완료되었습니다. ...'라는 문구가 콘솔 화면에 출력되면 OK입니다.
+
+=== 옵션
+
+. Repository 형의 객체 인젝션을 Setter 인젝션이나 필드 인젝션으로 변경해 봅시다.
+
+. 앞서 설명한 애너테이션을 일부러 삭제하여 실행 시 어떤 오류가 발생하는지 확인해 봅시다.
