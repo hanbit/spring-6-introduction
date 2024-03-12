@@ -5,7 +5,7 @@
 <br/>
 <br/>
 ## 소스 코드 다운받는 법
-[spring-book-src-master.zip] 클릭 → 오른쪽 상단의 ··· 클릭 → Downloads 클릭
+[spring-book-src-master.zip] 클릭 → 오른쪽 상단의 [···] 클릭 → [Downloads] 클릭
 <br/>
 <br/>
 ## 책 소개
