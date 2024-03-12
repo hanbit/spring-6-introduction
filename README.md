@@ -29,7 +29,6 @@ spring-book-src-master.zip 클릭 → 오른쪽 상단의 ··· 클릭 → Down
 13장. 갱신 계열 REST API 만들기<br/>
 14장. 스프링 시큐리티<br/>
 <br/>
-<br/>
 **2부. 실무편**     
 15장. 싱글톤과 스레드 세이프<br/>
 16장. 스프링 JDBC: JOIN 결과 가져오기<br/>
@@ -49,7 +48,6 @@ spring-book-src-master.zip 클릭 → 오른쪽 상단의 ··· 클릭 → Down
 30장. RESTful 웹 서비스 테스트<br/>
 31장. 스프링 시큐리티의 테스트 지원<br/>
 32장. Selenide를 사용한 E2E 테스트<br/>
-<br/>
 <br/>
 **3부. 부록**   
 A.1 트랜잭션<br/>
