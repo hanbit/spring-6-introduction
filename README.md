@@ -1,7 +1,7 @@
 # 그림으로 배우는 스프링 6 입문
-<a href="https://www.hanbit.co.kr/store/books/look.php?p_code=B9703548802"><img src="https://www.hanbit.co.kr/data/books/B9703548802_l.jpg" height="256px" align="right"></a>
+<a href="https://www.hanbit.co.kr/store/books/look.php?p_code=B1434600858"><img src="https://www.hanbit.co.kr/data/books/B1434600858_l.jpg" height="256px" align="right"></a>
 
-『[그림으로 배우는 스프링 6 입문](https://www.hanbit.co.kr/store/books/look.php?p_code=B9703548802)』(한빛미디어, 2024) 예제 코드 저장소입니다.
+『[그림으로 배우는 스프링 6 입문](https://www.hanbit.co.kr/store/books/look.php?p_code=B1434600858)』(한빛미디어, 2024) 예제 코드 저장소입니다.
 <br/>
 <br/>
 ## 소스 코드 다운받는 법
